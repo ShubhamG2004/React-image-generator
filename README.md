@@ -2,7 +2,8 @@
 
 A modern React app that generates images using AI descriptions with a beautiful, responsive UI.
 
-![AI Image Generator](./src/assets/AI-image.png)
+<img width="1366" height="850" alt="Index" src="https://github.com/user-attachments/assets/594bfc47-343f-4f2d-99be-839809e98357" />
+
 
 ## Features
 
