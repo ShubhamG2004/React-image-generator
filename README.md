@@ -1,16 +1,45 @@
-# React + Vite
+# 🎨 AI Image Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React app that generates images using AI descriptions with a beautiful, responsive UI.
 
-Currently, two official plugins are available:
+![AI Image Generator](./src/assets/AI-image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- AI-powered image descriptions with Google Gemini API
+- Beautiful glass-morphism UI design
+- Image history and download functionality
+- Quick prompt suggestions
+- Responsive design for all devices
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Quick Start
 
-## Expanding the ESLint configuration
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Add API key (optional)**
+   ```bash
+   # Create .env file
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+## Tech Stack
+
+- React 18 + Vite
+- Google Gemini API
+- Modern CSS with animations
+
+## Get API Key
+
+Visit [Google AI Studio](https://aistudio.google.com/) to get your free Gemini API key.
+
+---
+
+Made with ❤️ by [ShubhamG2004](https://github.com/ShubhamG2004)
